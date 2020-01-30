@@ -4,12 +4,6 @@ import Page from './components/Page'
 import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
-  // componentDidMount(){
-  //   Font.loadAsync({
-  //     'Molle': require('assets/fonts/Molle-Italic.ttf')
-  //   })
-  // }
-
   return (
     <View style={styles.container}>
       <Page/>
@@ -20,10 +14,10 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#ffb6c1',
+    backgroundColor: 'rgb(251,131,250)',
     alignItems: 'center',
     justifyContent: 'center',
-    fontFamily: 'Molle-Italic'
+    // fontFamily: 'Molle-Italic'
   },
 });
 

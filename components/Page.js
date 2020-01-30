@@ -10,9 +10,10 @@ class Page extends Component {
     }
 
     render() {
+        
         return (
             <View>
-                <Text style={{ fontFamily: 'Molle', color: 'white', fontSize: '75px'}}>Angelo</Text>
+                <Text style={{ fontFamily: 'Molle-cursive', color: 'white', fontSize: '75px'}}>Angelo</Text>
             </View>
         );
     }
