@@ -1,6 +1,5 @@
 import React from 'react'
 import Page from './components/Page'
-// import * as Font from 'expo-font';
 import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
@@ -14,15 +13,8 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'rgb(251,131,250)',
+    backgroundColor: '#FADAFF',
     alignItems: 'center',
     justifyContent: 'center',
-    // fontFamily: 'Molle-Italic'
   },
 });
-
-// const styles2 = StyleSheet.create({
-//   container: {
-//     fontFamily: 'Molle-Italic'
-//   },
-// });
